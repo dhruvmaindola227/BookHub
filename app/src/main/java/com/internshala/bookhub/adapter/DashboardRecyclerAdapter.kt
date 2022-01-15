@@ -25,7 +25,7 @@ class DashboardRecyclerAdapter(val context: Context, val itemList: ArrayList<Boo
 
     override fun getItemCount(): Int {
         return itemList.size
-    }
+    }//hello
 
     override fun onBindViewHolder(holder: DashboardViewHolder, position: Int) {
         val book = itemList[position]
